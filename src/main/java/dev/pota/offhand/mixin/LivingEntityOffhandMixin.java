@@ -18,10 +18,11 @@ public abstract class LivingEntityOffhandMixin {
             return;
         }
 
-        if (!((Object) this instanceof PlayerEntity player)) {
+        if (!((Object) this instanceof PlayerEntity)) {
             return;
         }
 
+        PlayerEntity player = (PlayerEntity) (Object) this;
         if (OffhandGuard.shouldBlockVanillaOffhandUse(player, hand)) {
             ci.cancel();
             OffhandGuard.logPrevented("setStackInHand(OFF_HAND, EMPTY)");
