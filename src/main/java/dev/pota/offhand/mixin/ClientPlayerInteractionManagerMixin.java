@@ -16,7 +16,6 @@ public abstract class ClientPlayerInteractionManagerMixin {
     private void pota$stopMaskedOffhandUse(PlayerEntity player, Hand hand, CallbackInfoReturnable<ActionResult> cir) {
         if (OffhandGuard.shouldBlockVanillaOffhandUse(player, hand)) {
             cir.setReturnValue(ActionResult.PASS);
-            OffhandGuard.logPrevented("client interactItem(OFF_HAND)");
         }
     }
 }

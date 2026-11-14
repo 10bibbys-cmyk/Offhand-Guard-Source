@@ -44,9 +44,4 @@ public final class OffhandGuard {
         ItemStack equippedOffhand = player.getEquippedStack(EquipmentSlot.OFFHAND);
         return equippedOffhand != null && equippedOffhand.isEmpty();
     }
-
-    public static void logPrevented(String operation) {
-        // Original 1.0.0 behaviour: intentionally retained during source recovery.
-        System.out.println("[PotA Offhand Guard] Prevented masked two-handed offhand operation: " + operation);
-    }
 }

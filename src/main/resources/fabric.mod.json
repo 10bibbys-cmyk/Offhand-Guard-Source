@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "pota_offhand_guard",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "name": "PotA Offhand Guard",
   "description": "Protects offhand items from disappearing when casting RMB-bound Spell Engine spells with Better Combat two-handed weapons.",
   "authors": [
