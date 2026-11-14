@@ -16,7 +16,7 @@ No additional configuration, gameplay mechanics, or user interface is added.
 
 The mod guards certain offhand actions when Better Combat identifies a two-handed main-hand weapon, the inventory offhand still contains an item, and the equipped offhand appears empty. It intercepts client and server item interactions and prevents an inappropriate offhand clear in that state.
 
-This public repository contains a reconstruction of the **1.0.0** release source from the original production JAR. No behavioural changes were intentionally made during source recovery. Clean compilation alone does not establish equivalence to the original tested JAR.
+This public repository contains a reconstruction of the **1.0.0** release source from the original production JAR. No behavioural changes were intentionally made during source recovery. All four rebuilt classes have been compared with the production JAR, and their bytecode instruction sequences match. The Mixin refmap also resolves to the original injection targets. An in-game regression test is still recommended before substituting a rebuilt JAR for the tested release.
 
 ## Building
 
