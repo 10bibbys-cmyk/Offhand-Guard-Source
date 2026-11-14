@@ -1,0 +1,16 @@
+Copyright (c) 2026 Path of the Ascended
+All Rights Reserved.
+
+The source code in this repository is publicly available for viewing and
+inspection only. It is not provided under an open-source licence.
+
+Except where permitted by applicable law, no permission is granted to copy,
+modify, distribute, republish, sublicense, or prepare derivative works from
+this distribution without prior written permission from the copyright holder.
+
+This notice does not revoke or restrict rights previously granted under an
+applicable licence, including MIT-licensed earlier releases.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
