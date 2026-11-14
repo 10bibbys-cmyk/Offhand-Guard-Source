@@ -42,7 +42,7 @@ public final class OffhandGuard {
         }
 
         ItemStack equippedOffhand = player.getEquippedStack(EquipmentSlot.OFFHAND);
-        return equippedOffhand != null && !equippedOffhand.isEmpty();
+        return equippedOffhand != null && equippedOffhand.isEmpty();
     }
 
     public static void logPrevented(String operation) {

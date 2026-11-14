@@ -14,7 +14,7 @@ No additional configuration, gameplay mechanics, or user interface is added.
 
 ## How it works
 
-The mod guards certain offhand actions when Better Combat identifies a two-handed main-hand weapon and an offhand item is equipped. It intercepts client and server item interactions and prevents an inappropriate offhand clear in that state.
+The mod guards certain offhand actions when Better Combat identifies a two-handed main-hand weapon, the inventory offhand still contains an item, and the equipped offhand appears empty. It intercepts client and server item interactions and prevents an inappropriate offhand clear in that state.
 
 This public repository contains a reconstruction of the **1.0.0** release source from the original production JAR. No behavioural changes were intentionally made during source recovery. Clean compilation alone does not establish equivalence to the original tested JAR.
 
